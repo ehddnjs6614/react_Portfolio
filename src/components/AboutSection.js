@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import AboutImg from '../assets/images/user1.jpg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -80,9 +80,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Chittagong,
-            Bangladesh. I create professional websites. I love art and always
-            try to show unique views to the audience through my design.
+            안녕하세요, 프론트 엔드 개발자의 꿈을 이루기위해 공부중인
+            김동원이라고합니다. 배움을 두려워 하지않고 , 에러와 친하며 항상
+            생각하며 행동하는 프론트 엔드 개발자가 목표입니다. 감사합니다👍 :)
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

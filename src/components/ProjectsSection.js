@@ -90,6 +90,8 @@ export default function ProjectsSection() {
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                    link={project.link}
+                    link1={project.link1}
                   />
                 </SwiperSlide>
               );

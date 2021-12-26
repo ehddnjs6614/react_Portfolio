@@ -59,9 +59,8 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Kim DongWon</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            프론트 엔드 개발자를 위해 열심히 달리고있는
+            <br /> 취준생 김동원입니다.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,15 +95,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+52066614',
+                path: 'tel:+52066614',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'skqorwkdal@naver.com',
+                path: 'skqorwkdal@naver.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: '서울특별시, 금천구',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -132,12 +131,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>2021. Kim Dong Won | All Rights Reserved</PText>
         </div>
       </div>
     </FooterStyle>

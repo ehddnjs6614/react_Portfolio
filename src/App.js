@@ -12,7 +12,6 @@ export default function App() {
     <>
       <Router>
         <NavMenu />
-
         <Switch>
           <Route path="/about">
             <About />

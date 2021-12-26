@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/Main1.png';
 import Button from './Button';
 import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
@@ -159,11 +159,6 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am working as a freelance web designer and developer for 4
-              years. i love to design and make new web experiences for the
-              people.
-            </PText>
             <Button
               btnLink="/projects"
               btnText="see my works "
@@ -178,18 +173,21 @@ export default function HeroSection() {
             <div className="hero__social__text">
               <ul>
                 <li>
-                  <a href="" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     FB
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer">
-                    FB
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer">
-                    LI
+                  <a
+                    href="https://github.com/ehddnjs6614"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Git
                   </a>
                 </li>
               </ul>

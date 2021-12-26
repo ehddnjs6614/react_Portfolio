@@ -12,6 +12,8 @@ const projects = [
     desc:
       'An application to track your all data from one place. I developed the website and the mobile app',
     img: UTrackerImg,
+    link: 'https://gracious-payne-9fd0ba.netlify.app/',
+    link1: 'https://github.com/ehddnjs6614',
   },
   {
     id: uuidv4(),
@@ -19,6 +21,8 @@ const projects = [
     desc:
       'An app to help people to get an overview of how they can make the city beautiful.',
     img: GreenCtgImg,
+    link: 'https://pedantic-goldstine-a9fc23.netlify.app/#home',
+    link1: 'https://github.com/ehddnjs6614',
   },
   {
     id: uuidv4(),

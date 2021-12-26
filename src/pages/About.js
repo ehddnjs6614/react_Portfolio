@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/user1.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -81,20 +81,20 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                안녕하세요, <span> Front-end Developer 꿈인.</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">예비 개발자 김동원입니다.</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  좋은 개발자가 되기위해 갖추어야 한다고 생각하는 덕목을
+                  말하라고하면 3가지가 떠오릅니다. 첫째, 유연한 소통능력
+                  둘째,새로움을 받아들이는 능력 셋째, 하루를 정리하는 습관
+                  3가지입니다.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  이런이야기를 왜 적었느냐면, 저에게 있어 개발자란 직업에 대해
+                  어떻게 생각하는지 어떤 성향의 개발자 자가 될것인지 스스로
+                  자신에게 한번쯤은 물어보고 준비할수있는 개발자 라는것을
+                  알려드리고싶습니다. 감사합니다
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -103,7 +103,6 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="My GitHub" btnLink="#" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -111,20 +110,19 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
+              <h1 className="about__info__heading">ABOUT ME</h1>
 
+              <AboutInfoItem title="이름" items={['김동원']} />
+              <AboutInfoItem title="생년월일" items={['94.03.14']} />
+              <AboutInfoItem title="주소지" items={['서울특별시 금천구']} />
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="학력"
+                items={[
+                  '서울금융고등학교(사이버경영)졸업',
+                  '장안대학(인터넷정보통신3년제)졸업',
+                ]}
               />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
-              />
+              <AboutInfoItem title="경력사항" items={['신입']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
@@ -136,22 +134,6 @@ export default function About() {
               <AboutInfoItem title="BackEnd" items={['Node', 'Express']} />
               <AboutInfoItem title="Design" items={['Photoshop']} />
               <AboutInfoItem title="DB" items={['MongoDB']} />
-            </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
             </div>
           </div>
         </div>

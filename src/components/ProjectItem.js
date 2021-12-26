@@ -34,12 +34,21 @@ const ProjectItemStyles = styled.div`
       height: 350px;
     }
   }
+  .projectButton {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 2rem 0;
+    color: tomato;
+  }
 `;
 
 export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  link,
+  link1,
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +60,27 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        {link && (
+          <a
+            className="projectButton"
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Project
+          </a>
+        )}
+        {''} {''}
+        {link1 && (
+          <a
+            className="projectButton"
+            href={link1}
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        )}
       </div>
     </ProjectItemStyles>
   );
